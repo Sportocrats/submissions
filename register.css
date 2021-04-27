@@ -56,7 +56,6 @@ body {
 .col-1-3 {
     width: 33.33%;
     float: right;
-    
 }
 .col-1-3 p{
     color: rgb(20, 22, 2);
@@ -64,6 +63,23 @@ body {
 .col-2-3 {
     width: 66.66%;
     float:left;
+}
+.center {
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+.center1 {
+    margin:10px;
+    position:absolute;
+    left: 74.5%;
+    top:65%;
+
+} 
+.centerf{
+    top:50%;
+    left:50%;
 }
 .group:before,
 .group:after {
@@ -111,19 +127,6 @@ label{
     padding:20px;
     padding-left: 30px;
     padding-right: 30px;
-}
-/*
- Buttons
-*/
-.butn {
-    border-radius: 5px;
-    display: inline-block;
-    margin: 0;
-}
-.butn-alt {
-    border: 1px solid #000000;
-    background:#272727;
-    padding: 10px 30px;
 }
 
 /*
@@ -213,9 +216,32 @@ ul{
     
     color: rgb(146, 9, 9);
 }
+.register p{
+    color:#ffe400;
+}
 /*
 Button
 */
+.butn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+}
+.butn-alt {
+    border: 1px solid #000000;
+    background:#272727;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 40px;
+}
+.blink {
+    animation: blinker 1.8s linear infinite;
+    color: #ff0000;
+    font-weight: bold;
+    }
+    @keyframes blinker {  
+    50% { opacity: 0; }
+    }
 .registerbtn {
     background-color: #272727;
     color: #ff0000;
@@ -267,6 +293,9 @@ Button
 	text-align: center;
 	color:#fff;
 }
+.main2 {
+    padding: 22px 500px 66px 500px;
+}
 .main h2 {
     font-size: 36px;
 }
@@ -298,7 +327,7 @@ Button
 }
 .vl {
     border-left: 6px solid #ff0000;
-    height: 945px;
+    height: 835px;
     position: absolute;
     left: 65%;
     margin-left: -3px;
