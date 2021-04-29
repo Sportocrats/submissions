@@ -268,3 +268,24 @@ em{
 .mast{
     color:#272727;
 }
+table {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    border-collapse: collapse; 
+}
+th, td {
+    height: 35px;
+    padding: 0.25rem;
+}
+tr.red th {
+    background: red;
+    color: white;
+}
+th {
+    font-size: 22px;
+    background: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
