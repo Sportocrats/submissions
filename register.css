@@ -99,7 +99,7 @@ body {
 	padding:66px 9px 44px 0;
 }
 /* Full-width input fields */
-input[type=text], input[type=email] ,input[type=password], input[type=date] ,select,option {
+input[type=text], input[type=email] ,input[type=sid],input[type=password], select,option {
     width: 100%;
     padding: 15px;
     margin: 5px 0 18px 0;
@@ -115,7 +115,7 @@ label{
 .container {
     border-radius: 5px;
     background-color: #444444;
-    background-image:url("/Users/shubhamarya/Desktop/EAD/IM/lo.png");
+    background-image:url("/Users/shubhamarya/Desktop/EAD/templates/static/lo.png");
     padding:20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -123,7 +123,7 @@ label{
 .container1 {
     border-radius: 5px;
     background-color: #444444;
-    background-image:url("/Users/shubhamarya/Desktop/EAD/IM/lo1.jpg");
+    background-image:url("/Users/shubhamarya/Desktop/EAD/templates/static/lo1.jpg");
     padding:20px;
     padding-left: 30px;
     padding-right: 30px;
